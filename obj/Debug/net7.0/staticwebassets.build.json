@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gKqkmbtCFBLMvnq468pPHzenRpW+yNRThwvSUdWNFvk=",
+  "Source": "LinkHubApi",
+  "BasePath": "_content/LinkHubApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
