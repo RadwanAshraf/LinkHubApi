@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Tutorial\\Projects\\LinkHubAPi\\LinkHubApi\\LinkHubApi.csproj": {}
+    "F:\\Tutorial\\My Projects\\LinkHubApi\\LinkHubApi.csproj": {}
   },
   "projects": {
-    "F:\\Tutorial\\Projects\\LinkHubAPi\\LinkHubApi\\LinkHubApi.csproj": {
+    "F:\\Tutorial\\My Projects\\LinkHubApi\\LinkHubApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Tutorial\\Projects\\LinkHubAPi\\LinkHubApi\\LinkHubApi.csproj",
+        "projectUniqueName": "F:\\Tutorial\\My Projects\\LinkHubApi\\LinkHubApi.csproj",
         "projectName": "LinkHubApi",
-        "projectPath": "F:\\Tutorial\\Projects\\LinkHubAPi\\LinkHubApi\\LinkHubApi.csproj",
+        "projectPath": "F:\\Tutorial\\My Projects\\LinkHubApi\\LinkHubApi.csproj",
         "packagesPath": "C:\\Users\\radwa\\.nuget\\packages\\",
-        "outputPath": "F:\\Tutorial\\Projects\\LinkHubAPi\\LinkHubApi\\obj\\",
+        "outputPath": "F:\\Tutorial\\My Projects\\LinkHubApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\radwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,43 +47,43 @@
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.9, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.9, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[7.0.6, )"
+              "version": "[7.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

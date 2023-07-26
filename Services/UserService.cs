@@ -45,6 +45,17 @@ namespace LinkHubApi.Services
             }
 
             return null;
+        }   
+        public async Task<User?> GetUserByName(string userName)
+        {
+
+            var user = await _context.Users.FirstOrDefaultAsync((User x) => x.UserName.Contains(userName));
+            if (user != null)
+            {
+                return user;
+            }
+
+            return null;
         }
         public async Task<User?> AddUserAsync(User NewUser)
         {

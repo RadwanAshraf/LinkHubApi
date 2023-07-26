@@ -7,6 +7,7 @@ namespace LinkHubApi.Services
     {
         Task<List<UserDto>?> GetUsersAsync();
         Task<User?> GetUserById(int id);
+        Task<User?> GetUserByName(string userName);
         Task<User?> AddUserAsync(User user);
         Task<User?> UpdateUserAsync(int id, User user);
         User? DeleteUser(int id);

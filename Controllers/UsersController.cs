@@ -51,6 +51,18 @@ namespace LinkHubApi.Controllers
             return NotFound(jsonresult);
         }
 
+        // GET: api/Users/5
+        [HttpGet("byName")]
+        public async Task<ActionResult<User>> GetUser(string userName)
+        {
+            var jsonresult = JsonSerializer.Serialize(_userService.GetUserByName(userName));
+
+            if (jsonresult != null)
+                return Ok(jsonresult);
+
+            return NotFound(jsonresult);
+        }
+
         // PUT: api/Users/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
