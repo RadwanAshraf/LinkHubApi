@@ -1,5 +1,6 @@
 ﻿using LinkHubApi.CodeFirstMigration.Entities;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 namespace LinkHubApi.CodeFirstMigration.Data
 {
@@ -13,6 +14,7 @@ namespace LinkHubApi.CodeFirstMigration.Data
         public AppDbContext(DbContextOptions<AppDbContext> options)
       : base(options)
         {
+            ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
             
         }
 
@@ -26,6 +28,7 @@ namespace LinkHubApi.CodeFirstMigration.Data
 
             var connectionString = config.GetSection("constr").Value;
             optionsBuilder.EnableSensitiveDataLogging();
+            optionsBuilder.LogTo(log=>Debug.WriteLine(log));
             optionsBuilder.UseSqlServer(connectionString);
         }
 

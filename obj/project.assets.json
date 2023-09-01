@@ -11890,11 +11890,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Tutorial\\My Projects\\LinkHubApi\\LinkHubApi.csproj",
+      "projectUniqueName": "F:\\Tutorial\\My Projects\\LinkHubAPI\\LinkHubApi.csproj",
       "projectName": "LinkHubApi",
-      "projectPath": "F:\\Tutorial\\My Projects\\LinkHubApi\\LinkHubApi.csproj",
+      "projectPath": "F:\\Tutorial\\My Projects\\LinkHubAPI\\LinkHubApi.csproj",
       "packagesPath": "C:\\Users\\radwa\\.nuget\\packages\\",
-      "outputPath": "F:\\Tutorial\\My Projects\\LinkHubApi\\obj\\",
+      "outputPath": "F:\\Tutorial\\My Projects\\LinkHubAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\radwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
