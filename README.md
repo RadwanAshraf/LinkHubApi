@@ -6,9 +6,6 @@ With Linkhub, users can easily manage and access their collection of links witho
 ## Features
 SocialLinks
 Users
-## Architecture
-
-## Built With
 
 ## Install Dependancies
 
